@@ -4,14 +4,7 @@
 	font-family: Montserrat
 }
 
-#map {
-	position: absolute;
-	top: 0;
-	width: 100%;
-	margin-top: 60px;
 	height: 400px
-}
-
 body {
 	background-color: #fff
 }
@@ -192,31 +185,6 @@ i {
 	font-weight: 600
 }
 
-.char-btn {
-	font-family: Montserrat;
-	color: var(--dark);
-	font-size: 20px;
-	font-weight: 500;
-	background-color: #fff;
-	border-radius: 10px;
-	padding: 15px 15px;
-	border: 0;
-	margin-top: -100px;
-	box-shadow: rgba(0, 0, 0, 0.16) 0 10px 36px 0, rgba(0, 0, 0, 0.06) 0 0 0 1px;
-	cursor: pointer
-}
-
-.char-btn:hover {
-	text-decoration: underline
-}
-
-.btn-main {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 200px
-}
-
 .facilities {
 	margin-top: 140px
 }
@@ -383,11 +351,7 @@ i {
 		pointer-events: none;
 		padding: 100px 0
 	}
-	.nav-links.open {
-		clip-path: circle(1000px at 90% -10%);
-		-webkit-clip-path: circle(1000px at 90% -10%);
-		pointer-events: all
-	}
+
 	.nav-links li {
 		font-size: 25px;
 		font-weight: 600;
@@ -421,9 +385,7 @@ i {
 		-webkit-transition: all .5s ease 1.2s;
 		transition: all .5s ease 1.2s
 	}
-	.nav-links li.fade {
-		opacity: 1
-	}
+
 	.toggle .line-1 {
 		-webkit-transform: rotate(-45deg) translate(-5px, 6px);
 		transform: rotate(-45deg) translate(-5px, 6px)

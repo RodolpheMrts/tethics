@@ -203,7 +203,7 @@
 
   <script language="JavaScript">
     function drawChart() {
-        var data = google.visualization.arrayToDataTable([
+        const data = google.visualization.arrayToDataTable([
             ['Month', 'Days'],
             ['March', 15],
             ['April', 18],
@@ -212,11 +212,11 @@
             ['July', 20],
             ['August', 14]
         ]);
-        var options = {
+        const options = {
             title: 'Attendance',
             isStacked: true
         };
-        var chart = new google.visualization.BarChart(document.getElementById('container'));
+        const chart = new google.visualization.BarChart(document.getElementById('container'));
         chart.draw(data, options);
     }
     google.charts.setOnLoadCallback(drawChart);
