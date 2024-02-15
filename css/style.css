@@ -115,11 +115,14 @@ i {
 
 .nav-links a {
 	text-decoration: none;
-	color: var(--navbar-link);
 	font-size: 1.2rem;
 	font-weight: 400;
 	transition: .2s ease-in;
 	font-family: Montserrat
+}
+
+.nav-links a {
+	color: var(--navbar-link);
 }
 
 .nav-links a:hover {
@@ -186,7 +189,6 @@ i {
 	color: #fff;
 	font-size: 1.3rem;
 	padding: 15px 10px 10px 10px;
-	text-align: center;
 	width: 50%;
 	margin-left: 25%;
 	font-weight: 500;
@@ -221,15 +223,13 @@ i {
 .container {
 	width: 70%;
 	height: auto;
-	margin: 0 auto;
 	background-color: #fff;
 	background-image: url(/assets/breakpoint6-dark.jpg);
 	background-position: center;
 	background-size: cover;
 	box-shadow: rgba(0, 0, 0, 0.16) 0 10px 36px 0, rgba(0, 0, 0, 0.06) 0 0 0 1px;
 	border-radius: 15px;
-	margin-top: -120px;
-	margin-bottom: 120px
+	margin: -120px auto 120px;
 }
 
 .details {
@@ -291,9 +291,10 @@ i {
 }
 
 .about-section {
-	background: url(/assets/breakpoint9.jpg) no-repeat right;
 	background-size: 55%;
-	background-color: #fff;
+	background: #fff url(/assets/breakpoint9.jpg) no-repeat right;
+	width: 5760px;
+	height: 3840px;
 	overflow: hidden;
 	padding: 100px 0;
 	margin-right: 200px
@@ -305,10 +306,7 @@ i {
 	float: left;
 	background-color: #fff;
 	border-radius: 15px;
-	padding-right: 150px;
-	padding-left: 150px;
-	padding-top: 80px;
-	padding-bottom: 80px;
+	padding: 80px 150px;
 	box-shadow: rgba(100, 100, 111, 0.2) 10px 27px 29px 20px
 }
 
@@ -325,6 +323,9 @@ i {
 	line-height: 30px;
 	text-align: justify;
 	margin-bottom: 40px;
+}
+
+.text {
 	color: #000
 }
 
@@ -358,8 +359,11 @@ i {
 .column {
 	display: flex;
 	flex-direction: column;
-	flex-basis: 100%;
 	flex: 1
+}
+
+.column {
+	flex-basis: 100%;
 }
 
 .vision-column {
@@ -392,9 +396,7 @@ i {
 .facilities p {
 	width: 50%;
 	text-align: justify;
-	margin: auto;
-	margin-top: 50px;
-	margin-bottom: 50px;
+	margin: 50px auto;
 	font-size: 1.3rem
 }
 
@@ -438,10 +440,8 @@ i {
 	padding-top: 140px;
 	width: 70%;
 	height: auto;
-	margin: 0 auto;
 	border-radius: 15px;
-	margin-top: -120px;
-	margin-bottom: 120px
+	margin: -120px auto 120px;
 }
 
 .details-gal {
