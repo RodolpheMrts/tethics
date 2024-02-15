@@ -282,58 +282,11 @@ i {
 	box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0
 }
 
-.about {
-	min-height: 100vh;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	background-color: #fff
-}
-
-.about-section {
-	background-size: 55%;
-	background: #fff url(/assets/breakpoint9.jpg) no-repeat right;
-	width: 5760px;
-	height: 3840px;
-	overflow: hidden;
-	padding: 100px 0;
-	margin-right: 200px
-}
-
-.inner-container {
-	width: 25%;
-	margin-left: 200px;
-	float: left;
-	background-color: #fff;
-	border-radius: 15px;
-	padding: 80px 150px;
-	box-shadow: rgba(100, 100, 111, 0.2) 10px 27px 29px 20px
-}
-
 .inner-container h1 {
 	margin-bottom: 30px;
 	font-size: 3.3rem;
 	font-weight: 900;
 	color: #000
-}
-
-.text {
-	font-size: 1.1rem;
-	color: #545454;
-	line-height: 30px;
-	text-align: justify;
-	margin-bottom: 40px;
-}
-
-.text {
-	color: #000
-}
-
-.skills {
-	display: flex;
-	justify-content: space-between;
-	font-weight: 700;
-	font-size: 13px
 }
 
 .vision {
@@ -605,12 +558,6 @@ i {
 		padding: 100px 0
 	}
 
-	.nav-links.open {
-		clip-path: circle(1000px at 90% -10%);
-		-webkit-clip-path: circle(1000px at 90% -10%);
-		pointer-events: all
-	}
-
 	.nav-links li {
 		font-size: 25px;
 		font-weight: 600;
@@ -650,10 +597,6 @@ i {
 	.nav-links li:nth-child(6) {
 		-webkit-transition: all .5s ease 1.2s;
 		transition: all .5s ease 1.2s
-	}
-
-	.nav-links li.fade {
-		opacity: 1
 	}
 
 	.toggle .line-1 {
@@ -764,29 +707,12 @@ i {
 }
 
 @media screen and (max-width:1200px) {
-	.inner-container {
-		padding: 80px
-	}
 }
 
 @media screen and (max-width:1000px) {
-	.about-section {
-		background-size: 100%;
-		padding: 100px 40px
-	}
 
-	.inner-container {
-		width: 100%
-	}
 }
 
 @media screen and (max-width:600px) {
-	.about-section {
-		padding: 0
-	}
-  
-	.inner-container {
-		padding: 60px;
-		z-index: 9999
-	}
+
 }
