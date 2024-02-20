@@ -8,11 +8,21 @@
 body {
 	margin: 0;
 	padding: 0;
-	background-image: url(/assets/breakpoint-blur-dark.jpg);
 	background-position: center;
 	background-size: cover;
 	height: 100vh;
 	overflow: hidden
+}
+@media (min-width: 600px) {
+	.body {
+		background-image: url(/assets/breakpoint-blur-dark-medium.webp);
+	}
+}
+
+@media (max-width: 599px) {
+	.body {
+		background-image: url(/assets/breakpoint-blur-dark-medium.webp);
+	}
 }
 
 .center {

@@ -30,11 +30,21 @@ img {
 	left: 0;
 	width: 100%;
 	box-shadow: 0 1px 0 rgba(22, 8, 43, 0.1);
-	background-image: url(/assets/breakpoint5-blur.jpg);
 	background-position: center;
 	background-size: cover;
 	height: 20vh;
 	z-index: 100
+}
+@media (min-width: 600px) {
+	.header {
+		background-image: url(/assets/breakpoint5-blur-medium.webp);
+	}
+}
+
+@media (max-width: 599px) {
+	.header {
+		background-image: url(/assets/breakpoint5-blur-medium.webp);
+	}
 }
 
 #header-head {
@@ -115,7 +125,6 @@ img {
 	margin-top: 5rem
 }
 
-}
 .active {
 	color: #4260e4
 }
