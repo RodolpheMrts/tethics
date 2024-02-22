@@ -13,17 +13,6 @@ body {
 	height: 100vh;
 	overflow: hidden
 }
-@media (min-width: 600px) {
-	.body {
-		background-image: url(/assets/breakpoint-blur-dark-medium.webp);
-	}
-}
-
-@media (max-width: 599px) {
-	.body {
-		background-image: url(/assets/breakpoint-blur-dark-medium.webp);
-	}
-}
 
 .center {
 	position: absolute;
@@ -83,17 +72,6 @@ form .txt-field {
 	height: 2px;
 	background: #272727;
 	transition: .5s
-}
-
-.txt-field input:focus~label,
-.txt-field input:valid~label {
-	top: -5px;
-	color: #272727
-}
-
-.txt-field input:focus~span::before,
-.txt-field input:valid~span::before {
-	width: 100%
 }
 
 input[type="submit"] {
@@ -161,10 +139,6 @@ input[type="submit"] {
 	transition: .2s ease
 }
 
-.nav-links a:hover {
-	text-decoration: underline
-}
-
 .nav-links li {
 	list-style: none
 }
@@ -176,10 +150,6 @@ input[type="submit"] {
 	font-weight: 400;
 	transition: .2s ease-in;
 	font-family: Montserrat
-}
-
-.nav-links a:hover {
-	cursor: pointer
 }
 
 .hamburger {
@@ -261,25 +231,5 @@ input[type="submit"] {
 	.nav-links li:nth-child(4) {
 		-webkit-transition: all .5s ease .8s;
 		transition: all .5s ease .8s
-	}
-	.nav-links li:nth-child(5) {
-		-webkit-transition: all .5s ease 1s;
-		transition: all .5s ease 1s
-	}
-	.nav-links li:nth-child(6) {
-		-webkit-transition: all .5s ease 1.2s;
-		transition: all .5s ease 1.2s
-	}
-
-	.toggle .line-1 {
-		-webkit-transform: rotate(-45deg) translate(-5px, 6px);
-		transform: rotate(-45deg) translate(-5px, 6px)
-	}
-	.toggle .line-2 {
-		opacity: 0
-	}
-	.toggle .line-3 {
-		-webkit-transform: rotate(45deg) translate(-5px, -6px);
-		transform: rotate(45deg) translate(-5px, -6px)
 	}
 }

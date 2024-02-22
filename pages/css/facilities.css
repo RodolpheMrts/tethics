@@ -37,10 +37,6 @@ h1 {
 	line-height: 140%
 }
 
-b {
-	font-weight: 700
-}
-
 i {
 	font-display: swap
 }
@@ -99,10 +95,6 @@ i {
 	transition: .2s ease
 }
 
-.nav-links a:hover {
-	text-decoration: underline
-}
-
 .nav-links li {
 	list-style: none
 }
@@ -114,10 +106,6 @@ i {
 	font-weight: 400;
 	transition: .2s ease-in;
 	font-family: Montserrat;
-}
-
-.nav-links a:hover {
-	cursor: pointer
 }
 
 .hamburger {
@@ -141,11 +129,6 @@ i {
 	height: 1.8rem
 }
 
-#login-button:hover {
-	-webkit-transform: scale(1.12);
-	transform: scale(1.12)
-}
-
 .banner {
 	padding-top: 200px;
 	width: 100%;
@@ -154,11 +137,6 @@ i {
 	background-size: cover;
 	background-position: center;
 	z-index: -99999
-}
-@media (min-width: 600px) {
-	.banner {
-		background-image: url(/assets/breakpoint-blur-dark-medium.webp);
-	}
 }
 
 @media (max-width: 599px) {
@@ -244,10 +222,6 @@ i {
 	border-radius: 50%;
 	transition: .2s ease;
 	box-shadow: rgba(0, 0, 0, 0.16) 0 10px 36px 0, rgba(0, 0, 0, 0.06) 0 0 0 1px
-}
-
-#myBtn:hover {
-	background-color: #555
 }
 
 .features {
@@ -391,22 +365,6 @@ i {
 	.nav-links li:nth-child(5) {
 		-webkit-transition: all .5s ease 1s;
 		transition: all .5s ease 1s
-	}
-	.nav-links li:nth-child(6) {
-		-webkit-transition: all .5s ease 1.2s;
-		transition: all .5s ease 1.2s
-	}
-
-	.toggle .line-1 {
-		-webkit-transform: rotate(-45deg) translate(-5px, 6px);
-		transform: rotate(-45deg) translate(-5px, 6px)
-	}
-	.toggle .line-2 {
-		opacity: 0
-	}
-	.toggle .line-3 {
-		-webkit-transform: rotate(45deg) translate(-5px, -6px);
-		transform: rotate(45deg) translate(-5px, -6px)
 	}
 }
 

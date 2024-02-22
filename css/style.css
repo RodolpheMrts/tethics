@@ -297,15 +297,12 @@ b {
 @media (min-width: 600px) {
 	.vision {
 		background-image: url(/assets/bg-pattern-medium.webp);
-	}
 }
 
 @media (max-width: 599px) {
 	.vision {
 		background-image: url(/assets/bg-pattern-small.webp);
 	}
-}
-
 
 .row {
 	display: flex;
@@ -365,12 +362,6 @@ b {
 	background-color: #4b4a4a;
 	background-position: center;
 	background-size: cover;
-}
-
-@media (min-width: 600px) {
-	.bottom {
-		background-image: url(/assets/bg-pattern-medium.webp);
-	}
 }
 
 @media (max-width: 599px) {
