@@ -47,10 +47,6 @@ b {
 	font-weight: 700
 }
 
-i {
-	font-display: swap
-}
-
 #navbar {
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -105,10 +101,6 @@ i {
 	transition: .2s ease
 }
 
-.nav-links a:hover {
-	text-decoration: underline
-}
-
 .nav-links li {
 	list-style: none
 }
@@ -123,10 +115,6 @@ i {
 
 .nav-links a {
 	color: var(--navbar-link);
-}
-
-.nav-links a:hover {
-	cursor: pointer
 }
 
 .hamburger {
@@ -148,11 +136,6 @@ i {
 	padding: 5px;
 	width: 1.8rem;
 	height: 1.8rem
-}
-
-#login-button:hover {
-	-webkit-transform: scale(1.12);
-	transform: scale(1.12)
 }
 
 .banner {
@@ -219,10 +202,6 @@ i {
 	margin-top: -100px;
 	box-shadow: rgba(0, 0, 0, 0.16) 0 10px 36px 0, rgba(0, 0, 0, 0.06) 0 0 0 1px;
 	cursor: pointer
-}
-
-.char-btn:hover {
-	text-decoration: underline
 }
 
 .btn-main {
@@ -304,13 +283,6 @@ i {
 .box-main {
 	background-color: #fff;
 	box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0
-}
-
-.inner-container h1 {
-	margin-bottom: 30px;
-	font-size: 3.3rem;
-	font-weight: 900;
-	color: #000
 }
 
 .vision {
@@ -405,8 +377,6 @@ i {
 	.bottom {
 		background-image: url(/assets/bg-pattern-small.webp);
 	}
-}
-
 
 #bottom-p {
 	color: #fff;
@@ -431,10 +401,6 @@ i {
 	border-radius: 50%;
 	transition: .2s ease;
 	box-shadow: rgba(0, 0, 0, 0.16) 0 10px 36px 0, rgba(0, 0, 0, 0.06) 0 0 0 1px
-}
-
-#myBtn:hover {
-	background-color: #555
 }
 
 .container-gal {
@@ -490,10 +456,6 @@ i {
 	cursor: pointer
 }
 
-.icon-gal img:hover {
-	transform: scale(1.2)
-}
-
 .features {
 	padding: 100px 40px;
 	display: flex;
@@ -531,14 +493,6 @@ i {
 	align-items: flex-start
 }
 
-.flex-info h2 {
-	font-size: 2rem;
-	font-weight: 700;
-	color: #000;
-	margin-bottom: 1rem;
-	font-family: Poppins
-}
-
 .flex-info p {
 	margin-bottom: 0;
 	color: #000;
@@ -548,8 +502,6 @@ i {
 	white-space: normal;
 	font-family: Poppins
 }
-
-/* responsive code - media queries */
 
 @media screen and (max-width:873px) {
 	#navbar {
@@ -642,55 +594,31 @@ i {
 		transition: all .5s ease 1s
 	}
 
-	.nav-links li:nth-child(6) {
-		-webkit-transition: all .5s ease 1.2s;
-		transition: all .5s ease 1.2s
-	}
-
-	.toggle .line-1 {
-		-webkit-transform: rotate(-45deg) translate(-5px, 6px);
-		transform: rotate(-45deg) translate(-5px, 6px)
-	}
-
-	.toggle .line-2 {
-		opacity: 0
-	}
-
-	.toggle .line-3 {
-		-webkit-transform: rotate(45deg) translate(-5px, -6px);
-		transform: rotate(45deg) translate(-5px, -6px)
-	}
-
 	.box {
 		display: flex;
 		flex-direction: column
 	}
-}
 
 @media screen and (max-width:836px) {
 	.banner {
 		height: 80vh
 	}
-}
 
 @media screen and (max-width:800px) {
 	.banner p {
 		text-align: center
 	}
-}
 
 @media screen and (max-width:568px) {
 	.banner h2 {
 		font-size: 1.5rem
 	}
-}
 
 @media screen and (max-width:610px) {
 	.banner p {
 		width: 70%;
 		margin-left: 85px
 	}
-}
 
 @media screen and (max-width:400px) {
 	.banner p {
@@ -705,21 +633,18 @@ i {
 	.banner h2 {
 		font-size: 1.1rem
 	}
-}
 
 @media screen and (max-width:456px) {
 	.banner p {
 		margin-left: 58px;
 		font-size: 1.1rem
 	}
-}
 
 @media screen and (max-width:498px) {
 	.banner p {
 		margin-left: 60px;
 		font-size: 1.1rem
 	}
-}
 
 @media screen and (max-width:1205px) {
 	.vision-column p {
@@ -730,19 +655,16 @@ i {
 	.vision-column {
 		width: 500px
 	}
-}
 
 @media screen and (max-width:613px) {
 	.vision-column {
 		width: 400px
 	}
-}
 
 @media screen and (max-width:500px) {
 	.vision-column {
 		width: 300px
 	}
-}
 
 @media(max-width:1000px) {
 	.flex-image {
@@ -752,15 +674,3 @@ i {
 	.flex-info {
 		width: 100%
 	}
-}
-
-@media screen and (max-width:1200px) {
-}
-
-@media screen and (max-width:1000px) {
-
-}
-
-@media screen and (max-width:600px) {
-
-}
