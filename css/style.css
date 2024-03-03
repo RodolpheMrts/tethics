@@ -1,7 +1,7 @@
 * {
 	margin: 0;
 	padding: 0;
-	font-family: Montserrat
+	font-family: Montserrat, serif
 }
 
 #map {
@@ -110,7 +110,7 @@ b {
 	font-size: 1.2rem;
 	font-weight: 400;
 	transition: .2s ease-in;
-	font-family: Montserrat
+	font-family: Montserrat, serif
 }
 
 .nav-links a {
@@ -167,7 +167,7 @@ b {
 	text-shadow: 4px 4px 19px rgba(150, 150, 150, 1);
 	text-align: center;
 	letter-spacing: .1rem;
-	font-family: Poppins
+	font-family: Poppins, serif
 }
 
 .banner h2 {
@@ -191,7 +191,7 @@ b {
 }
 
 .char-btn {
-	font-family: Montserrat;
+	font-family: Montserrat, serif;
 	color: var(--dark);
 	font-size: 20px;
 	font-weight: 500;
@@ -271,7 +271,7 @@ b {
 	color: #000;
 	font-size: 1.2rem;
 	font-weight: 500;
-	font-family: Poppins
+	font-family: Poppins, serif
 }
 
 .icon img {
@@ -292,11 +292,6 @@ b {
 	text-align: center;
 	padding: 150px;
 	height: auto;
-}
-
-@media (min-width: 600px) {
-	.vision {
-		background-image: url(/assets/bg-pattern-medium.webp);
 }
 
 @media (max-width: 599px) {
@@ -368,7 +363,7 @@ b {
 	.bottom {
 		background-image: url(/assets/bg-pattern-small.webp);
 	}
-
+}
 #bottom-p {
 	color: #fff;
 	font-weight: 600;
@@ -437,7 +432,7 @@ b {
 	color: #000;
 	font-size: 1.2rem;
 	font-weight: 500;
-	font-family: Poppins
+	font-family: Poppins, serif
 }
 
 .icon-gal img {
@@ -453,7 +448,7 @@ b {
 	flex-direction: column;
 	align-items: center;
 	gap: 6rem;
-	font-family: Montserrat;
+	font-family: Montserrat, serif;
 	margin-top: 100px;
 	margin-bottom: 100px
 }
@@ -491,7 +486,7 @@ b {
 	line-height: 1.3em;
 	font-weight: 400;
 	white-space: normal;
-	font-family: Poppins
+	font-family: Poppins, serif
 }
 
 @media screen and (max-width:873px) {
@@ -589,28 +584,28 @@ b {
 		display: flex;
 		flex-direction: column
 	}
-
+}
 @media screen and (max-width:836px) {
 	.banner {
 		height: 80vh
 	}
-
+}
 @media screen and (max-width:800px) {
 	.banner p {
 		text-align: center
 	}
-
+}
 @media screen and (max-width:568px) {
 	.banner h2 {
 		font-size: 1.5rem
 	}
-
+}
 @media screen and (max-width:610px) {
 	.banner p {
 		width: 70%;
 		margin-left: 85px
 	}
-
+}
 @media screen and (max-width:400px) {
 	.banner p {
 		margin-left: 50px;
@@ -624,39 +619,39 @@ b {
 	.banner h2 {
 		font-size: 1.1rem
 	}
-
+}
 @media screen and (max-width:456px) {
 	.banner p {
 		margin-left: 58px;
 		font-size: 1.1rem
 	}
-
+}
 @media screen and (max-width:498px) {
 	.banner p {
 		margin-left: 60px;
 		font-size: 1.1rem
 	}
-
+}
 @media screen and (max-width:1205px) {
 	.vision-column p {
 		font-size: 1.1rem;
 		text-align: center
 	}
-
+}
 	.vision-column {
 		width: 500px
 	}
-
+}
 @media screen and (max-width:613px) {
 	.vision-column {
 		width: 400px
 	}
-
+}
 @media screen and (max-width:500px) {
 	.vision-column {
 		width: 300px
 	}
-
+}
 @media(max-width:1000px) {
 	.flex-image {
 		width: 100%
@@ -665,3 +660,4 @@ b {
 	.flex-info {
 		width: 100%
 	}
+}
