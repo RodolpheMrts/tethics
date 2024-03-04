@@ -293,7 +293,10 @@ b {
 	padding: 150px;
 	height: auto;
 }
-
+@media (min-width: 600px) {
+	.vision {
+		background-image: url(/assets/bg-pattern-medium.webp);
+	}
 @media (max-width: 599px) {
 	.vision {
 		background-image: url(/assets/bg-pattern-small.webp);
@@ -358,6 +361,11 @@ b {
 	background-position: center;
 	background-size: cover;
 }
+	@media (min-width: 600px) {
+		.bottom {
+			background-image: url(/assets/bg-pattern-medium.webp);
+		}
+	}
 
 @media (max-width: 599px) {
 	.bottom {

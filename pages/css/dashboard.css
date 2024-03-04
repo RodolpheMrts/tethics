@@ -43,7 +43,7 @@ img {
 
 @media (max-width: 599px) {
 	.header {
-		background-image: url(/assets/breakpoint5-blur-medium.webp);
+		background-image: url(/assets/breakpoint5-blur-small.webp);
 	}
 }
 
