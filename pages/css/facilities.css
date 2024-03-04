@@ -388,46 +388,31 @@ i {
 
 @media screen and (max-width:800px) {
 	.banner p {
-		text-align: center
+		text-align: center;
+		width: 70%;
+		margin-left: 85px;
+		font-size: 1.1rem;
+	}
+	.banner h2 {
+		font-size: 1.5rem;
 	}
 }
 
 @media screen and (max-width:568px) {
 	.banner h2 {
-		font-size: 1.5rem
-	}
-}
-
-@media screen and (max-width:610px) {
-	.banner p {
-		width: 70%;
-		margin-left: 85px
+		font-size: 1.5rem;
 	}
 }
 
 @media screen and (max-width:400px) {
 	.banner p {
 		margin-left: 50px;
-		font-size: 1.1rem
+		font-size: 1.1rem;
 	}
 	.banner h1 {
-		font-size: 1.7rem
+		font-size: 1.7rem;
 	}
 	.banner h2 {
-		font-size: 1.1rem
-	}
-}
-
-@media screen and (max-width:456px) {
-	.banner p {
-		margin-left: 58px;
-		font-size: 1.1rem
-	}
-}
-
-@media screen and (max-width:498px) {
-	.banner p {
-		margin-left: 60px;
-		font-size: 1.1rem
+		font-size: 1.1rem;
 	}
 }
