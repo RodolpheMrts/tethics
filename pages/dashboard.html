@@ -32,8 +32,9 @@
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"></noscript>
+
     <title>Tethics | Dashboard</title>
 </head>
 <body>
@@ -45,8 +46,6 @@
       Dashboard
     </h1>
   </header>
-
-
 
   <!-- navbar -->
 
@@ -115,8 +114,6 @@
     </nav>
   </div>
 
-
-
   <!-- dashboard section -->
 
   <main>
@@ -168,10 +165,7 @@
       </div>
   </main>
 
-
-
   <!-- js -->
-
 
   <!-- mapbox api integration -->
 
@@ -197,7 +191,6 @@
     .setLngLat([77.1888, 28.7095])
     .addTo(map);
   </script>
-
 
   <!-- attendance graph -->
 
