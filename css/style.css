@@ -301,7 +301,7 @@ b {
 	.vision {
 		background-image: url(/assets/bg-pattern-small.webp);
 	}
-
+}
 .row {
 	display: flex;
 	flex-direction: row;

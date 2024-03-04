@@ -7,7 +7,7 @@
 body {
 	margin: 3.5rem 0 0 0;
 	padding: 1rem 1rem 0;
-	font-family: Montserrat;
+	font-family: Wolf, serif;
 	background-color: white
 }
 
@@ -138,12 +138,12 @@ img {
 
 .column h3 {
 	font-size: 1.5rem;
-	font-family: Wolf
+	font-family: Wolf, serif;
 }
 
 .column p {
 	font-size: 1.2rem;
-	font-family: Wolf
+	font-family: Wolf, serif;
 }
 
 .row {
@@ -201,7 +201,7 @@ img {
 
 .column-two h2 {
 	color: #000;
-	font-family: Wolf;
+	font-family: Wolf, serif;
 	font-size: 2rem
 }
 
