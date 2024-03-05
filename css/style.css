@@ -1,7 +1,7 @@
 * {
 	margin: 0;
 	padding: 0;
-	font-family: Wolf, serif
+	font-family: Montserrat;
 }
 
 #map {
@@ -110,7 +110,7 @@ b {
 	font-size: 1.2rem;
 	font-weight: 400;
 	transition: .2s ease-in;
-	font-family: Wolf, serif
+	font-family: Montserrat;
 }
 
 .nav-links a {
@@ -148,12 +148,6 @@ b {
 	z-index: -99999;
 }
 
-@media (min-width: 600px) {
-	.banner {
-		background-image: url(/assets/breakpoint-blur-dark-medium.webp);
-	}
-}
-
 @media (max-width: 599px) {
 	.banner {
 		background-image: url(/assets/breakpoint-blur-dark-small.webp);
@@ -167,7 +161,7 @@ b {
 	text-shadow: 4px 4px 19px rgba(150, 150, 150, 1);
 	text-align: center;
 	letter-spacing: .1rem;
-	font-family: Wolf, serif
+	font-family: Montserrat;
 }
 
 .banner h2 {
@@ -191,7 +185,7 @@ b {
 }
 
 .char-btn {
-	font-family: Wolf, serif;
+	font-family: Montserrat;
 	color: var(--dark);
 	font-size: 20px;
 	font-weight: 500;
@@ -222,11 +216,7 @@ b {
 	margin: -120px auto 120px;
 }
 
-@media (min-width: 600px) {
-	.container {
-		background-image: url(/assets/breakpoint6-dark-medium.webp);
-	}
-}
+
 
 @media (max-width: 599px) {
 	.container {
@@ -271,7 +261,7 @@ b {
 	color: #000;
 	font-size: 1.2rem;
 	font-weight: 500;
-	font-family: Wolf, serif
+	font-family: Montserrat;
 }
 
 .icon img {
@@ -440,7 +430,7 @@ b {
 	color: #000;
 	font-size: 1.2rem;
 	font-weight: 500;
-	font-family: Wolf, serif
+	font-family: Montserrat;
 }
 
 .icon-gal img {
@@ -456,7 +446,7 @@ b {
 	flex-direction: column;
 	align-items: center;
 	gap: 6rem;
-	font-family: Wolf, serif;
+	font-family: Montserrat;
 	margin-top: 100px;
 	margin-bottom: 100px
 }
@@ -494,7 +484,7 @@ b {
 	line-height: 1.3em;
 	font-weight: 400;
 	white-space: normal;
-	font-family: Wolf, serif
+	font-family: Montserrat;
 }
 
 @media screen and (max-width:873px) {

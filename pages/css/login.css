@@ -2,7 +2,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: Wolf, sans-serif
+	font-family: Montserrat;
 }
 
 body {
@@ -149,7 +149,7 @@ input[type="submit"] {
 	font-size: 1.2rem;
 	font-weight: 400;
 	transition: .2s ease-in;
-	font-family: Wolf, serif
+	font-family: Montserrat;
 }
 
 .hamburger {
